@@ -6,3 +6,11 @@ body {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
+
+button {
+  cursor: pointer;
+  color: rgb(255, 255, 255);
+  background-color: rgb(0, 163, 164);
+  border-radius: 8px;
+  border: double;
+}

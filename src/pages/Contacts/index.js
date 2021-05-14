@@ -1,3 +1,4 @@
+import classes from './index.module.css';
 import { useState } from 'react';
 import { AddContact } from './AddContact';
 import { ContactsTable } from './ContactsTable'
@@ -42,7 +43,7 @@ export function Contacts() {
     }
 
     return (
-        <div >
+        <div className={classes.container} >
             <AddContact
                 name={name}
                 tel={tel}
